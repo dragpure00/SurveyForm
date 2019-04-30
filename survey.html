@@ -1,0 +1,116 @@
+<h1 id="title">Favorite Car Survey</h1>
+<p id="description">
+  Give feedback by filling out the survey!</p>
+<form id = "survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+<div id = "form1">
+    <!-- First Name -->
+    <div class = "rowTab">
+      <div class = "leftTab">
+        <label id ="name-label" for="name">First Name:</label>
+      </div> 
+      <div class = "rightTab">    
+<input autofocus type="text" id ="name" class = "box" placeholder="Enter First Name here" required>
+      </div>
+    </div>
+ <!-- Last Name -->
+    <div class = "rowTab">
+      <div class = "leftTab">
+        <label id ="name-label" for="name">Last Name:</label>
+      </div> 
+      <div class = "rightTab">    
+<input autofocus type="text" id ="name" class = "box" placeholder="Enter Last Name here" required>
+      </div>
+    </div>
+<!-- Email -->
+    <div class = "rowTab">
+      <div class = "leftTab">
+        <label id ="email-label" for="email">Email:</label>
+      </div> 
+      <div class = "rightTab">    
+<input autofocus type="email" id ="email" class = "box" placeholder="Enter your email address here" required>
+      </div>
+    </div>
+    <!-- Age -->
+     <div class = "rowTab">
+      <div class = "leftTab">
+        <label id ="number-label" for="age">Age:</label>
+      </div> 
+      <div class = "rightTab">    
+<input autofocus type="number" id ="number" class = "box" min ="1" max ="100"  placeholder="Enter your Age" required>
+      </div>
+    </div>
+    </div>  
+  <div id ="form2"> 
+  <!--dropform1 -->
+  <div class = "rowTab">
+    <div class ="leftTab">
+      <label id ="dropdown-label" for="dropdown">What is your favorite<br> Country Car Manufacturer?</label>
+    </div>
+    <div class="rightTab">
+<select id ="dropdown" class ="drop">
+  <option disabled selected>Please Select</option>
+<option value= "japan">Japan</option>
+  <option value="usa">USA</option>
+  <option value="germany">Germany</option>
+  <option value="sweden">Sweden</option>
+  <option value="italy">Italy</option>
+  <option value="britain">Britain</option>
+      </select>
+    </div>
+    </div>
+<!--checkbox-->
+    <div id ="rowTab">
+      <div class="leftTab">
+    <label id ="radiobutton-label" for="radiobutton">Check any Country Car Manufacturer<br> that you like after the one you pick in the previous question </label>
+      </div>
+      <div class="rightTab">
+        <input type="checkbox" name="japan" value="2">Japan<br>
+    <input type="checkbox" name="japan" value="3">USA<br>
+    <input type="checkbox" name="japan" value="4">Germany<br>
+    <input type="checkbox" name="japan" value="5">Sweden<br>
+    <input type="checkbox" name="japan" value="6">Italy<br>
+      </div>
+    </div>
+ <!--radio button-->
+    <div id ="rowTab">
+      <div class = "leftTab">
+    <label id ="checkbox-label" for="checkbox">What is your least favorite<br> Country Car Manufacturer </label>
+      </div>
+      <div class="rightTab">
+     <ul>
+    <li class ="radio">
+      <label><input id="japan-option" type="radio" name="country" value="1">Japan</label> 
+  </li>
+    <li class ="radio">
+      <label><input id="japan-option" type="radio" name="country" value="2">USA</label> 
+  </li>
+    <li class ="radio">
+      <label><input id="japan-option" type="radio" name="country"value="3">Germany</label> 
+  </li>
+    <li class ="radio">
+      <label><input id="japan-option" type="radio" name="country"value="4">Sweden</label> 
+  </li>
+    <li class ="radio">
+      <label><input id="japan-option" type="radio" name="country"value="5">Italy</label> 
+  </li>
+    <li class ="radio">
+      <label><input id="japan-option" type="radio" name="country"value="6">Britain</label> 
+  </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Feeback -->
+  <div id = "form3">
+    <div id="rowTab">
+  <div class="leftTab">  
+   <label id="submitbox-label" for="textarea">Let us know what you would to like to see<br> or how to improve more on this survey!</label>
+      </div>
+      <div class="rightTab">
+        <textarea name="comment" form="usrform" class ="box" rows="4" >Write feedback here</textarea> 
+         
+      </div>
+      </div>
+    <input type="submit" id="submit">
+  </div>
+</form>
