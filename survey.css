@@ -1,0 +1,86 @@
+html,body{
+  font-family: 'Times New Roman';
+  background-color: #a9d7d1;
+  text-align: center;
+  min-width: 320px;
+}
+#form1
+{
+  background-color: rgb(222, 43, 43);
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+#form2{
+  background-color: rgb(38, 95, 18);
+  margin: 0 auto;
+  margin-top:20px;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+#form3{
+  background-color: rgb(134, 146, 99);
+  margin: 0 auto;
+  margin-top:20px;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.leftTab
+{
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+  font-size:20px;
+}
+.rightTab{
+   display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+.box{
+  height: 20px;
+  width: 190px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+.drop {
+  height: 35px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+.radio,.checkbox{
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
